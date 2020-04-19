@@ -2729,7 +2729,7 @@ blockquote footer cite:before {
   -webkit-align-items: flex-start;
   align-items: flex-start;
   margin: 0 auto;
-  padding: 4rem 15px;
+  padding: 2.9rem 15px;
   max-width: 1200px;
 }
 #recent-posts {
