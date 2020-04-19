@@ -2259,14 +2259,18 @@ blockquote footer cite:before {
   color: #000;
   font-weight: bold;
   font-size: 14;
+  position: relative;
+  top: 3rem;
 }
 #nav .typed-cursor,
 #nav .typed-cursor--blink {
   color: #000 !important;
   font-weight: bold;
+  position: relative;
+  top: 3rem;
 }
 #nav #site_title {
-  margin: 0;
+  margin: -3rem 0 0;
   font-size: 1.3rem;
 }
 #nav #site_subtitle {
@@ -2548,15 +2552,23 @@ blockquote footer cite:before {
   font-size: 0.7rem;
   cursor: pointer;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 385px) {
   #nav #site_title {
     font-size: 2rem;
   }
   #nav #site_subtitle {
     font-size: 1.2rem;
+    top: 4rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 385px) {
+  #site_subtitle {
+    top: 4rem;
+  }
+  .typed-cursor,
+  .typed-cursor--blink {
+    top: 4rem;
+  }
   #page-header {
     padding: 10px 0.8rem;
   }
@@ -3145,9 +3157,9 @@ blockquote footer cite:before {
 .hide-aside > div {
   width: 100% !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 385px) {
   .layout_page {
-    padding: 1rem 5px !important;
+    padding: 0rem 5px !important;
   }
   .layout_page > div:first-child:not(.recent-posts) {
     padding: 1.8rem 0.7rem;
