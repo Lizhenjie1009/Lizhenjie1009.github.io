@@ -2249,10 +2249,21 @@ blockquote footer cite:before {
 #nav #site_title,
 #nav #site_subtitle,
 #nav #scroll_down .scroll-down-effects {
-  color: #eee;
+  color: #ccc;
   text-align: center;
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   line-height: 1.5;
+  z-index: 100;
+}
+#nav #subtitle {
+  color: #000;
+  font-weight: bold;
+  font-size: 14;
+}
+#nav .typed-cursor,
+#nav .typed-cursor--blink {
+  color: #000 !important;
+  font-weight: bold;
 }
 #nav #site_title {
   margin: 0;
