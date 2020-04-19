@@ -2238,11 +2238,11 @@ blockquote footer cite:before {
   transition: all 0.5s;
 }
 #nav.full_page {
-  height: 0px;
+  height: 100vh;
 }
 #nav.full_page #site-info {
   position: absolute;
-  top: 50%;
+  top: 43%;
   padding: 0 0.5rem;
   width: 100%;
 }
@@ -2444,7 +2444,7 @@ blockquote footer cite:before {
 #page-header .menus_items .menus_item {
   position: relative;
   display: inline-block;
-  padding: 0 0 0 0.7rem;
+  padding: 0 0.7rem;
 }
 #page-header .menus_items .menus_item:hover .menus_item_child {
   display: block;
@@ -2729,7 +2729,7 @@ blockquote footer cite:before {
   -webkit-align-items: flex-start;
   align-items: flex-start;
   margin: 0 auto;
-  padding: 2rem 15px;
+  padding: 4rem 15px;
   max-width: 1200px;
 }
 #recent-posts {
