@@ -3226,6 +3226,12 @@ blockquote footer cite:before {
 @media screen and (max-width: 900px) {
   .layout_page > div:first-child:not(.recent-posts) {
     width: 100% !important;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  #recent-posts > .recent-post-ite {
+    margin-top: 4rem;
   }
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
